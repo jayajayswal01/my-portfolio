@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSpring, animated } from '@react-spring/web';
-import HeroImage from  '../../assets/hero.svg'
+import HeroImage from  '../../assets/port.png'
 import { 
   FiGithub, FiLinkedin, FiTwitter, 
   FiArrowRight,
