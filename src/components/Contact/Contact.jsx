@@ -22,13 +22,6 @@ const Contact = () => {
       link: 'mailto:jayajayswal49@gmail.com',
       color: '#6366f1'
     },
-    // {
-    //   icon: <FiPhone />,
-    //   title: 'Phone',
-    //   value: '+1 234 567 890',
-    //   link: 'tel:+1234567890',
-    //   color: '#ec4899'
-    // },
     {
       icon: <FiMapPin />,
       title: 'Location',

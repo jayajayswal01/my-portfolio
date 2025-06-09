@@ -2,6 +2,8 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSpring, animated } from '@react-spring/web';
 import HeroImage from  '../../assets/port.png'
+import HeroImagePanda from '../../assets/heroImageV.png'
+
 import { 
   FiGithub, FiLinkedin, FiTwitter, 
   FiArrowRight,
@@ -101,7 +103,7 @@ const Hero = () => {
           >
             <div className="hero__image-wrapper">
               <img 
-                src={HeroImage}
+                src={HeroImagePanda}
                 alt="Profile" 
                 className="hero__image"
               />

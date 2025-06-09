@@ -141,18 +141,6 @@ const About = () => {
                 </motion.div>
               ))}
             </div>
-
-            {/* <motion.button
-              className="about__cta"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1 }}
-              whileHover={{ scale: 1.05, y: -2 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              View Resume
-              <FiArrowRight className="about__cta-icon" />
-            </motion.button> */}
           </motion.div>
         </div>
       </div>
